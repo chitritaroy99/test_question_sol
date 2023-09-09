@@ -1,6 +1,9 @@
 def matchingStrings(stringList, queries):
     c=0
     arr=[]
+    #taking each element from queries
+    #match with stringList
+    #counter increase
     for i in queries:
         for j in stringList:
             if i==j:
